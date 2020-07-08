@@ -1,0 +1,308 @@
+@media screen and (max-width: 1217px)
+{
+  .films
+  {
+    width: 93%;
+    margin: 32px auto 0 auto;
+  }
+  
+  .films_items_container
+  {
+    margin-top: 0;
+    margin-bottom:  30px;
+  }
+  
+  .films_items
+  {
+    margin-top: 33px;
+  }
+
+
+  
+  .films_items_container
+  {
+    justify-content: space-around;
+  }
+  
+  .film_image
+  {
+    width: 398px;
+    height: 258px;
+  }
+  
+  .films_items
+  {
+    width: 396px;
+  }
+  
+  .films_spacing
+  {
+    margin-left: 0;
+  }
+  
+  .all_films_link
+  {
+    margin: 54px auto 0 auto;
+  }
+}
+
+@media screen and (max-width: 1025px)
+{
+  .container
+  {
+    width: 94%;
+  }
+  
+  .photo_and_quote
+  {
+    width: 95%;
+  }
+  
+}
+
+@media screen and (max-width: 885px)
+{
+  .film_image
+  {
+    width: 315px;
+    height: 250px;
+  }
+  
+  .films_items
+  {
+    width: 315px;
+  }
+  
+  .quote_text
+  {
+    width: 40%;
+    margin: 236px 0 0 58px;
+  }
+  
+  .all_information
+  {
+    width: 47%;
+  }
+  
+  .about_me
+  {
+    margin-left: 22%;
+    width: 79%;
+  }
+  
+  .main_photo
+  {
+    width: 300px;
+  }
+  
+  .about_me_title
+  {
+    font: 700 43px/42px "Open Sans", sans-serif;
+  }
+  
+}
+
+@media screen and (max-width: 702px)
+{
+  .navigation_link
+  {
+    font: 400 17px/32px Georgia, Arial;
+    padding: 5px 0 9px 0;
+  }
+  
+  .background
+  {
+    height: 350px;
+  }
+  
+  .main_photo
+  {
+    border-radius: 5px;
+    position: absolute;
+    top: 128px;
+    width: 273px;
+  }
+
+  .favorite_films_title
+  {
+    padding-top: 0;
+  }
+  
+  .quote_text
+  {
+    width: 61%;
+    margin: 179px 0 0 58px;
+    font: italic 26px/42px Georgia, Arial;
+  }
+  
+  .quote_text_author
+  {
+    font: 600 14px/42px "Open Sans", sans-serif;
+  }
+  
+  .education_and_hobbies_title
+  {
+    margin-top: 101px;
+    font: 600 22px/32px "Open Sans", sans-serif;
+  }
+  
+  .education_and_hobbies_list
+  {
+    font: 400 18px/36px Georgia, Arial;
+  }
+  
+  .all_information
+  {
+    width: 65%;;
+  }
+  
+  .about_me_title
+  {
+    font: 700 41px/42px "Open Sans", sans-serif;
+  }
+  
+  .about_me
+  {
+    margin-left: 89px;
+    width: 69%;
+  }
+  
+  .about_me_text
+  {
+    font: 500 18px/32px Georgia, Arial;
+  }
+  
+  .footer_text
+  {
+    font: 400 13px/32px Georgia, Arial;
+    padding: 7px 0;
+  }
+  
+  .films_items
+  {
+    width: 255px;
+  }
+  
+  .film_image
+  {
+    width: 255px;
+    height: 227px;
+  }
+  
+  .write_me_text:after
+  {
+    display: none;
+  }
+  
+  .write_me_text:before
+  {
+    display: none;
+  }
+  
+  .all_films
+  {
+    margin-top: 48px;
+  }
+  
+}
+
+@media screen and (max-width: 606px)
+{
+  .background
+  {
+    height: 500px;
+  }
+  
+  .header_navigation
+  {
+    display: none;
+  }
+  
+  .main_photo_container
+  {
+    width: 0;
+    height: 0;
+  }
+  
+  .main_photo
+  {
+    top: 38px;
+    width: 269px;
+  }
+  
+  .quote_text
+  {
+    width: 100%;
+    margin: 349px 0 0 9px;
+  }
+  
+  .container
+  {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+  
+  .about_me
+  {
+    margin: 0 auto;
+    width: 88%;
+  }
+  
+  .all_information
+  {
+    width: 100%;
+  }
+  
+  .all_information_container
+  {
+    width: 88%;
+  }
+  
+  .film_image
+  {
+    width: 100%;
+  }
+  
+  .films_items
+  {
+    width: 88%;
+  }
+  
+  .form_of_communication
+  {
+    width: 100%;
+  }
+  
+  form
+  {
+    width: 90%;
+  }
+  
+  .entry_field
+  {
+    width: 96%;
+  }
+  
+  .select_arrow_image
+  {
+    left: 93%;
+  }
+  
+  .select_entry_field
+  {
+    width: 101%;
+  }
+  
+  .input_block_textarea
+  {
+    width: 96%;
+  }
+  
+  .form_button
+  {
+    margin: 45px 0 0 0;
+  }
+  
+}
+
+

@@ -1,0 +1,548 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.clear_fix
+{
+  clear: both;
+}
+
+.container
+{
+  min-width: 280px;
+  max-width: 960px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.photo_and_quote
+{
+  display: flex;
+  min-width: 280px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.main_photo_container
+{
+  position: relative;
+  display: inline-block;
+  width: 330px;
+  height: 350px;
+}
+
+header
+{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header_navigation
+{
+  display: flex;
+  min-width: 320px;
+  max-width: 960px;
+}
+
+.header_navigation_item
+{
+  list-style-type: none;
+}
+
+.hobbies_item
+{
+  display: block;
+  padding: 0 19px 0 19px;
+}
+
+.video_item
+{
+  display: block;
+  padding: 0 19px 0 19px;
+}
+
+.about_me_item
+{
+  width: 140px;
+  text-align: center;
+}
+
+.header_navigation_item:hover
+{
+  background-color: #15a98c;
+}
+
+.navigation_link
+{
+  display: block;
+  font: 400 19px/32px Georgia, Arial;
+  color: #333333;
+  text-decoration: none;
+  padding: 9px 0 9px 0;
+}
+
+.navigation_link:hover
+{
+  color: #f5f5f5;
+}
+
+.fas
+{
+  padding-right: 3px;
+}
+
+.background
+{
+  margin: 0 auto;
+  background: url("../image/background.jpg") center/cover;
+  height: 400px;
+}
+
+.main_photo
+{
+  border-radius: 5px;
+  position: absolute;
+  top: 209px;
+}
+
+.quote_text
+{
+  display: block;
+  width: 570px;
+  font: italic 28px/42px Georgia, Arial;
+  color: #ffffff;
+  margin: 236px 0 0 60px;
+}
+
+.quote_text_author
+{
+  font: 600 16px/42px "Open Sans", sans-serif;
+  color: #f5f5f5;
+  margin-top: 3px;
+}
+
+.about_me_title
+{
+  display: block;
+  font: 700 48px/42px "Open Sans", sans-serif;
+  color: #333333;
+  margin-top: 46px;
+}
+
+.green_line
+{
+  background-color: #45c3aa;
+  width: 60px;
+  height: 6px;
+  border-radius: 3px;
+  margin: 30px 0 0 0;
+}
+
+.all_information_container
+{
+  margin: 12px auto;
+}
+
+.all_information_box
+{
+  margin-top: 10px;
+  min-width: 320px;
+  max-width: 960px;
+}
+
+.education_and_hobbies_title
+{
+  display: block;
+  font: 600 24px/32px "Open Sans", sans-serif;
+  color: #14a98c;
+  margin-top: 206px;
+}
+
+.education_and_hobbies_list
+{
+  font: 400 19px/36px Georgia, Arial;
+  color: #555555;
+  margin: 13px 0 0 20px;
+  padding: 0;
+}
+
+.hobbies_and_films_title
+{
+  display: block;
+  font: 400 36px/42px "Open Sans", sans-serif;
+  color: #333333;
+}
+
+.hobbies_title
+{
+  margin-top: 39px;
+  display: block;
+  font: 600 24px/32px "Open Sans", sans-serif;
+  color: #14a98c;
+}
+
+.about_me_text
+{
+  min-width: 280px;
+  max-width: 570px;
+  margin-top: 44px;
+  font: 500 19px/32px Georgia, Arial;
+  color: #555555;
+}
+
+.about_me
+{
+  min-width: 280px;
+  max-width: 570px;
+  margin-left: 11%;
+}
+
+.about_me_hobbies_text
+{
+  margin-top: 16px;
+}
+
+.contact_link
+{
+  display: block;
+  font: 400 19px/32px Georgia, Arial;
+  color: #15a98b;
+  margin-top: 40px;
+  text-decoration: none;
+}
+
+.contact_link_text
+{
+  text-decoration: underline;
+}
+
+.favorite_films
+{
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1200px;
+  padding-bottom: 60px;
+}
+
+.favorite_film_background
+{
+  background-color: #f9f9f9;
+}
+
+.films
+{
+  margin-top: 32px;
+  min-width: 320px;
+  max-width: 1200px;
+}
+
+.films_items_container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 33px;
+}
+
+.favorite_films_title
+{
+  padding-top: 45px;
+}
+
+.films_items
+{
+  width: 285px;
+}
+
+.film_image
+{
+  width: 285px;
+  height: 190px;
+  border-radius: 6px;
+}
+
+.films_spacing
+{
+  margin-left: 20px;
+}
+
+.film_text_title
+{
+  display: block;
+  font: 700 22px/22px "Open Sans", sans-serif;
+  color: #333333;
+  margin-top: 26px;
+}
+
+.film_text
+{
+  font: 400 16px/28px Georgia, Arial;
+  color: #555555;
+  margin-top: 19px;
+}
+
+.all_films_link
+{
+  text-decoration: none;
+  background-color: #15a98c;
+  border-radius: 6px;
+  color: #f5f5f5;
+  width: 220px;
+  text-align: center;
+  margin: 54px auto 0 480px;
+}
+
+.all_films_link:hover
+{
+  background-color: #028e72;
+}
+
+.all_films
+{
+  width: 220px;
+  text-align: center;
+  margin: 54px 0 0 40%;
+}
+
+.films_flex
+{
+  display: flex;
+}
+
+.footer_text
+{
+  display: block;
+  padding: 20px 0 20px 0;
+  font: 400 16px/32px Georgia, Arial;
+  color: #555555;
+}
+
+.form_of_communication
+{
+  min-width: 300px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.write_me_text
+{
+  position: relative;
+  display: block;
+  float: left;
+  font: 300 36px/36px "Open Sans", sans-serif;
+  color: #333333;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+.write_me_text:before
+{
+  position: absolute;
+  top: 20px;
+  right: 273px;
+  float: left;
+  display: block;
+  content: "";
+  width: 200px;
+  height: 1px;
+  background-color: #cccccc;
+}
+
+.write_me_text:after
+{
+  position: absolute;
+  top: 19px;
+  left: 271px;
+  float: right;
+  display: block;
+  content: "";
+  width: 200px;
+  height: 1px;
+  background-color: #cccccc;
+}
+
+.form_header
+{
+  width: 256px;
+  margin: 47px auto;
+}
+
+.input_block
+{
+  display: block;
+  padding-left: 17px;
+}
+
+footer
+{
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.label_text
+{
+  display: block;
+  font: 20px/20px "Open Sans", sans-serif;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.label_text_select
+{
+  font: 20px/20px "Open Sans", sans-serif;
+  color: #333333;
+}
+
+button
+{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+.entry_field
+{
+  width: 520px;
+  height: 48px;
+  border-radius: 3px;
+  border: solid 2px #c9c9c9;
+  margin-bottom: 27px;
+  
+}
+
+.select_entry_field
+{
+  margin: 14px 0 47px 0;
+  width: 542px;
+  height: 50px;
+}
+
+.checkbox_text
+{
+  font: 20px/20px "Open Sans", sans-serif;
+  color: #333;
+  letter-spacing: -1px;
+  margin-right: 35px;
+}
+
+.checkbox_text_title
+{
+  margin-bottom: 13px;
+}
+
+.checkbox_button
+{
+  margin-right: 4px;
+}
+
+.input_text_massage
+{
+  font: 20px/20px "Open Sans", sans-serif;
+  color: #333333;
+  margin: 47px 0 10px 0;
+  padding: 0;
+}
+
+.input_block_textarea
+{
+  padding-top: 15px;
+  display: block;
+  width: 520px;
+  height: 131px;
+  border-radius: 3px;
+  border: solid 2px #c9c9c9;
+}
+
+.button_link
+{
+  margin: 50px 0 46px 0;
+}
+
+.input_block_active:focus
+{
+  outline: none;
+  border: #15a98b solid 2px;
+}
+
+form
+{
+  max-width: 540px;
+  margin: 78px auto 0 auto;
+}
+
+.input_block_select
+{
+  font: 18px/18px "Open Sans", sans-serif;
+  color: #555555;
+  padding-left: 17px;
+}
+
+select
+{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+}
+
+.select_arrow
+{
+  position: relative;
+}
+
+.select_arrow_image
+{
+  position: absolute;
+  top: 21px;
+  left: 502px;
+  z-index: -1;
+}
+
+.input_set_line
+{
+  display: inline-block;
+}
+
+.red_star
+{
+  color: #ff0000;
+}
+
+.label_main_text
+{
+  display: inline-block;
+  padding-bottom: 9px;
+}
+
+.split_and_steklo, .astral_and_dragon
+{
+  display: flex;
+}
+
+.about_me_hobbies_title
+{
+  display: block;
+  font: 400 36px/42px "Open Sans", sans-serif;
+  color: #333333;
+  margin-top: 41px;
+}
+
+.form_button
+{
+  display: block;
+  text-decoration: none;
+  background-color: #15a98c;
+  border-radius: 6px;
+  color: #f5f5f5;
+  width: 220px;
+  text-align: center;
+  margin: 54px auto 0 auto;
+}
+
+.all_information
+{
+  width: 327px;
+}
